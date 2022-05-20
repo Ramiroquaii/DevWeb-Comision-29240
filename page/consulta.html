@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/estilo.css">
+    <title>Consulta</title>
+</head>
+<body>
+    <nav class="barraMenu">
+        <div class="menuChico">
+            <h3>CamionesGrua.com.ar</h3>
+            <a href="#"><img src="../img/menuIcono.png" alt="Menu"></a>
+        </div>
+        <ul class="menuNormal">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="clientes.html">Clientes</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="../index.html#servicios">Servicios</a></li>
+            <li><a href="../index.html#telmail">Contacto</a></li>
+            <li><a href="../index.html#ubicacion">Ubicación</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="consulta.html">Consulta</a></li>
+        </ul>
+    </nav>
+
+    <div class="barraLogo">
+        <div class="cajaLogo">
+            <img src="../img/logo.png" alt="Camiones con Grúas">
+        </div>
+    </div>
+
+    <div class="fixed-item">
+        <a href="https://wa.me/5491122334455"><img src="../img/whatssapp.png" alt=""></a>
+        <a href="tel:+5491122334455"><img src="../img/telefono.png" alt=""></a>
+    </div>
+
+    <section class="grid-form">
+        <form class="form-contacto" action="enviar.php" method="post" enctype="text/plain">
+            <h5>Póngase en contacto:</h5>
+            <input class="contacto-controls" type="text" name="nombre" placeholder="Nombre" required>
+            <input class="contacto-controls" type="text" name="apellido" placeholder="Apellido" required>
+            <input class="contacto-controls" type="number" name="numero" placeholder="Celular o Móvil" required>
+            <input class="contacto-controls" type="mail" name="correo" placeholder="Correo" required>
+            <textarea class="contacto-textarea" name="comentario" cols="30" rows="5" placeholder="Ingresa tu comentario..." required></textarea>
+            <input class="contacto-boton" type="submit" value="ENVIAR">
+            <input class="contacto-boton" type="reset" value="BORRAR">
+        </form>
+    </section>
+
+    <footer>
+        <div class="foot">
+            <a title="Facebook" href="https://www.facebook.com/login/" target="_blank"><img src="../img/facebook-icon.png" alt="Facebook" /></a>
+            <a title="Home" href="../index.html"><img src="../img/home-icon.png" alt="Home" /></a>
+            <a title="Instagram" href="https://www.instagram.com/" target="_blank"><img src="../img/instagram-icon.png" alt="Instagram" /></a>
+        </div>
+    </footer>
+</body>
+</html>
