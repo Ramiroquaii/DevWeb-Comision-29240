@@ -46,6 +46,19 @@ html{
     max-height: 30px;
 }
 
+.barraMenu:focus .menuChico,
+.barraMenu:focus-within .menuChico,
+.barraMenu:hover .menuNormal {
+  visibility: visible; /* shows sub-menu */
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s; /* this removes the transition delay so the menu will be visible while the other styles transition */
+}
+
+
+
+
 
 .barraLogo{
     width: 100%;
@@ -539,9 +552,9 @@ main h2{
 
 
 @media screen and (max-width: 750px){
-    .menuNormal{
+    /* .menuNormal{
         display: none;
-    }
+    } */
     .menuChico{
         display:flex;
     }
@@ -581,5 +594,25 @@ main h2{
     }
     .nosotros:nth-child(even){
         flex-direction: column;
+    }
+
+    .menuNormal{
+        width: 200px;
+        height: 280px;
+        position: absolute;
+        background-color: #000;
+        top: 60px;
+        left: calc(100vw - 200px);
+        visibility: hidden;
+    
+        transform: translateY(-10em);
+        z-index: -5;
+        transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+    }
+    .menuNormal li{
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
     }
 }
