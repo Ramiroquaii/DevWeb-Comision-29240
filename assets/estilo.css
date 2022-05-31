@@ -45,7 +45,7 @@ html{
 } /* ******************************* */
 
 
-/* ▼ Seccion de informacion ▼ ******** */
+/* ▼ Seccion de informacion index ▼ ******** */
 .info-box{
     padding-bottom: 80px;
 }
@@ -90,10 +90,65 @@ html{
     justify-content: center;
     padding-bottom: 40px;
 }
-/* ▲ Seccion de informacion ▲ ******** */
+/* ▲ Seccion de informacion index ▲ ******** */
 
+/* ▼ Seccion de pagina Nosotros ▼ ********** */
+.nosotros-box{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nosotros-item{     
+    max-width: 900px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 8px 8px 1px 1px rgba(255, 94, 0, 0.4);
+    margin-left: 20px;
+    margin-right: 20px;
+} 
+.nosotros-item img{
+    padding-top: 30px;
+}
+.nosotros-text{
+    padding-top: 35px;
+    font-size: 1.2em;
+    text-align: justify;
+    text-decoration: none;
+}
+@media screen and (max-width:767px){
+    .nosotros-item{     
+        border-radius: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+}
+/* ▲ Seccion de pagina Nosotros ▲ ********** */
 
-/* ▼ Seccion de footer ▼ ************* */
+/* ▼ Seccion de Galeria ▼ ******************* */
+#galeria{
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#galeria .col-lg-4 {
+    margin: 0 !important;
+    padding: 25px;
+}
+#galeria img {
+    width: 100%;
+    height: 250px;
+}
+#galeria img:hover {
+    border: 3px solid #fa3d3d;
+}
+/* ▲ Seccion de Galeria ▲ ******************* */
+
+/* ▼ Seccion de footer ▼ ******************* */
 .footer-dark {
     padding:50px 0;
     color:#f0f9ff;
@@ -177,7 +232,7 @@ html{
     font-size:13px;
     margin-bottom:0;
 }
-/* ▲ Seccion de footer ▲ ************* */
+/* ▲ Seccion de footer ▲ ******************* */
 
 
 /* ▼ Grid layout formularios login y contacto ▼ ******* */
