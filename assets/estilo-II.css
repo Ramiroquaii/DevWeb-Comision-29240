@@ -59,7 +59,7 @@ html {
 }
 
 .card {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.6);
   box-shadow: 8px 8px 1px 1px rgba(255, 94, 0, 0.4);
 }
 
@@ -146,7 +146,6 @@ html {
   }
 }
 /* ▲ Seccion de pagina Nosotros ▲ ********** */
-
 /* ▼ Seccion de Galeria ▼ ******************* */
 #galeria {
   background-color: rgba(255, 255, 255, 0.5);
@@ -169,7 +168,6 @@ html {
 }
 
 /* ▲ Seccion de Galeria ▲ ******************* */
-
 /* ▼ Seccion de footer ▼ ******************* */
 .footer-dark {
   padding: 50px 0;
@@ -208,7 +206,6 @@ html {
     padding-bottom: 20px;
   }
 }
-
 .footer-dark .item.text {
   margin-bottom: 36px;
 }
@@ -218,7 +215,6 @@ html {
     margin-bottom: 0;
   }
 }
-
 .footer-dark .item.text p {
   opacity: 0.6;
   margin-bottom: 0;
@@ -229,13 +225,12 @@ html {
 }
 
 @media (max-width: 991px) {
-  .footer-dark .item.social {
+  .footer-dark .item .social {
     text-align: center;
     margin-top: 20px;
   }
 }
-
-.footer-dark .item.social > a {
+.footer-dark .item .social > a {
   width: 36px;
   height: 36px;
   font-size: 20px;
@@ -249,7 +244,7 @@ html {
   opacity: 0.75;
 }
 
-.footer-dark .item.social > a:hover {
+.footer-dark .item .social > a:hover {
   opacity: 0.9;
 }
 
@@ -422,4 +417,4 @@ input[type=number] {
 
 /* FORMULARIO PARA CONTACTO /////////////////////////// */
 
-/*# sourceMappingURL=estilo.css.map */
+/*# sourceMappingURL=estilo-II.css.map */
