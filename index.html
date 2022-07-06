@@ -103,7 +103,7 @@
             <div class="col-sm-5 caja-info">
                 <div class="card" id="servicios">
                     <img src="img/servicios.png" class="card-img-top" alt="Servicios">
-                    <div class="card-body">
+                    <div class="card-body chico">
                         <h5 class="card-title">Servicios</h5>
                         <p class="card-text">Alquiler de camiones con grúa hidráulica para trabajos, elevaciones y transportes de todo tipo.</p>
                     </div>
@@ -117,14 +117,14 @@
             <div class="col-sm-5 caja-info">
                 <div class="card" id="telmail">
                     <img src="img/telmail.png" class="card-img-top" alt="Contacto">
-                    <div class="card-body">
+                    <div class="card-body chico">
                         <h5 class="card-title">Contacto</h5>
                         <p class="card-text">Ponte en contacto o escríbenos a cualquiera de nuestros medios disponibles.</p>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item"><strong>WathsApp:</strong> (011) 15-5353-1119</li>
                         <li class="list-group-item"><strong>WathsApp:</strong> (011) 15-5354-9991</li>
-                        <li class="list-group-item"><strong>contrataciones@camiones.com.ar</strong></li>
+                        <li class="list-group-item"><strong>contrataciones @ camiones.com.ar</strong></li>
                     </ul>
                 </div>
             </div>
@@ -183,5 +183,12 @@
     
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script>
+        $(".nav-link").on("click", function(){
+            $(".active").removeClass("active");
+            $(this).addClass("active");
+            
+        });
+    </script>
 </body>
 </html>

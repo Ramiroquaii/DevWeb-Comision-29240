@@ -64,14 +64,10 @@ html {
 }
 
 .card-img-top {
-  width: 30%;
-  height: 30%;
+  width: 140px;
+  height: 140px;
   align-self: center;
   padding-top: 20px;
-}
-
-.img-ubicacion {
-  max-width: 148px;
 }
 
 .card-title {
@@ -82,6 +78,7 @@ html {
 
 .card-text {
   text-shadow: none;
+  text-align: center;
 }
 
 .list-group-item {
@@ -161,6 +158,7 @@ html {
 #galeria img {
   width: 100%;
   height: 250px;
+  object-fit: cover;
 }
 
 #galeria img:hover {
@@ -266,6 +264,8 @@ html {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas: ". form .";
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 .form-login {
@@ -352,7 +352,7 @@ html {
 /* FORMULARIO PARA CONTACTO /////////////////////////// */
 .form-contacto {
   max-width: 440px;
-  min-width: 218px;
+  min-width: 300px;
   max-height: 490px;
   background-color: rgba(78, 77, 77, 0.904);
   margin: auto;
@@ -416,5 +416,37 @@ input[type=number] {
 }
 
 /* FORMULARIO PARA CONTACTO /////////////////////////// */
+/* Arreglo de relacion de aspecto para CARDs Bootstrap en Index Page */
+.chico {
+  min-height: 150px;
+}
+
+@media (max-width: 1111px) {
+  .chico {
+    height: 180px;
+  }
+}
+@media (max-width: 880px) {
+  .chico {
+    height: 220px;
+  }
+}
+@media (max-width: 655px) {
+  .chico {
+    height: 245px;
+  }
+}
+@media (max-width: 921px) {
+  .list-group-item {
+    height: 70px;
+  }
+}
+@media (max-width: 573px) {
+  .card-img-top {
+    width: 30%;
+    height: 30%;
+  }
+}
+/* ///////////////////////////////////////////////////////////////// */
 
 /*# sourceMappingURL=estilo.css.map */

@@ -70,13 +70,13 @@ html{
     box-shadow: $shadow_boxes;
 }
 .card-img-top{
-    @include sizes(30%, 30%);
+    @include sizes(140px, 140px);
     align-self: center;
     padding-top: 20px;
 }
-.img-ubicacion{
-    max-width: 148px;
-}
+// .img-ubicacion{
+//     max-width: 148px;
+// }
 .card-title{
     font-size: 2em;
     text-shadow: 2px 2px rgb(255, 255, 255);
@@ -84,6 +84,7 @@ html{
 }
 .card-text{
     text-shadow: none;
+    text-align: center;
 }
 .list-group-item{
     text-align: center;
@@ -152,6 +153,7 @@ html{
 }
 #galeria img {
     @include sizes(100%, 250px);
+    object-fit: cover;
 }
 #galeria img:hover {
     border: 3px solid #fa3d3d;
@@ -253,6 +255,8 @@ html{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: ". form .";
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 .form-login{grid-area: form;}
 .form-contacto{grid-area: form;}
@@ -315,7 +319,7 @@ html{
 /* FORMULARIO PARA CONTACTO /////////////////////////// */
 .form-contacto{
     max-width: 440px;
-    min-width: 218px;
+    min-width: 300px;
     max-height: 490px;
     background-color: $bg_formulario;
     margin: auto;
@@ -368,3 +372,36 @@ input[type="number"]{
     -moz-appearance:textfield !important;
 }
 /* FORMULARIO PARA CONTACTO /////////////////////////// */
+
+
+/* Arreglo de relacion de aspecto para CARDs Bootstrap en Index Page */
+.chico{
+    min-height: 150px;
+}
+@media (max-width:1111px) {
+    .chico{
+        height: 180px;
+    }
+}
+@media (max-width:880px) {
+    .chico{
+        height: 220px;
+    }
+}
+@media (max-width:655px) {
+    .chico{
+        height: 245px;
+    }
+}
+@media (max-width:921px){
+    .list-group-item{
+        height: 70px;
+    }
+}
+
+@media (max-width:573px){
+    .card-img-top{
+        @include sizes(30%, 30%);
+    }
+}
+/* ///////////////////////////////////////////////////////////////// */
