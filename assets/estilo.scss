@@ -393,7 +393,7 @@ input[type="number"]{
         height: 245px;
     }
 }
-@media (max-width:921px){
+@media (max-width:939px){
     .list-group-item{
         height: 70px;
     }
@@ -403,5 +403,8 @@ input[type="number"]{
     .card-img-top{
         @include sizes(30%, 30%);
     }
+}
+span.line {
+    display: inline-block;
 }
 /* ///////////////////////////////////////////////////////////////// */
