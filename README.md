@@ -6,11 +6,12 @@ Alumno: RAMIRO O. VECHIOLA
 Archivos de sitio final para trabajo del curso de desarrollo Web.
 
 Sitio 100% Responsive (Movile First).
-HTML + CSS
+HTML + CSS.
 Uso de BoxModeling con FlexBox y Grids.
-Implementación de Framework Bootstrap para incorporar sus librerias.
-Adecuacion para uso de SASS y sus funcionalidades de CSS.
-Implementacion de etiquetas y herramientas de posicionamiento para el SEO.
+Implementación de Framework Bootstrap para incorporar sus librerías.
+Adecuación para uso de SASS y sus funcionalidades de CSS.
+Implementación de etiquetas y herramientas de posicionamiento para el SEO.
+Subida y publicación en Hosting (000webhost gratuito).
 
 
 Repositorio de contenido
